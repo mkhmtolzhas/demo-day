@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import Message from "@/components/ui/message";
 import axios from "axios";
 
-export function TestPage() {
+export function Component() {
   // const { messages, sendMessage } = useWebSocket('ws://localhost:3000');
   // const [prompt, setPrompt] = useState('');
   // const [messagesList, setMessagesList] = useState<any[]>([])
@@ -72,4 +72,4 @@ export function TestPage() {
   )
 }
 
-export default TestPage
+export default Component
